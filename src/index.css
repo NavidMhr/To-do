@@ -1,0 +1,33 @@
+/* lets go */
+#root{
+  background-color: #5f27cd;
+}
+.container{ 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;  
+}
+
+.form-add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Content  */
+.ul{
+  border: 1px solid gray;
+  list-style: none;
+  background-color:#fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.list-li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+.list-name{
+  text-decoration: line-through;
+}
